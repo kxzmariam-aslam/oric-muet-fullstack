@@ -90,8 +90,8 @@ oric-muet-fullstack/
 
 ## 👩‍💻 Author
 
-**Maryam Kazi**
-BS Computer Science · MUET · CGPA 3.40/4.00
+**Maryam Aslam**
+BS Computer Science · MUET · CGPA 3.47/4.00
 📧 kzmaryam482@gmail.com
 
 ---
