@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 font-sans text-gray-800;
+  }
+}
+
+@layer components {
+  .shadow-oric {
+    @apply shadow-[0_2px_8px_rgba(10,36,99,0.06)];
+  }
+  .shadow-oric-lg {
+    @apply shadow-[0_8px_24px_rgba(10,36,99,0.10)];
+  }
+}
+
+/* ✅ Responsive */
+@media (max-width: 640px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .gap-4 {
+    gap: 0.75rem !important;
+  }
+  .p-4 {
+    padding: 0.75rem !important;
+  }
+  .text-sm {
+    font-size: 0.75rem !important;
+  }
+  .text-xl {
+    font-size: 1.125rem !important;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563EB;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1D4ED8;
+}
